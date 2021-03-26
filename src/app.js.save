@@ -1,0 +1,16 @@
+const express = require('express')
+
+const app = express()
+
+app.get('', (req, res) => {
+	res.send('Hello express!')
+})
+
+applisten(3000,() => {
+})
+
+// app.com
+// app.com/help
+// app.com/about
+
+
