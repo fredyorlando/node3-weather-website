@@ -71,14 +71,6 @@ app.get('/weather', (req, res) => {
 		})
 	})
 
-	
-	/*
-	res.send({
-		forecast: 'its hot',
-		location: 'Guatemala',
-		address: req.query.address
-	})
-	*/
 })
 
 app.get('/products', (req, res) => {
